@@ -19,7 +19,7 @@ chrome.action.onClicked.addListener(async (tab) => {
 chrome.runtime.onInstalled.addListener(async () => {
   const defaultSettings = {
     sidePanelWidth: 400,
-    defaultUrl: 'https://www.google.com',
+    defaultUrl: 'https://duckduckgo.com',
     theme: 'light'
   };
 

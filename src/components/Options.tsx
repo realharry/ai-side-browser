@@ -11,7 +11,7 @@ interface SettingsType {
 
 const DEFAULT_SETTINGS: SettingsType = {
   sidePanelWidth: 400,
-  defaultUrl: 'https://www.google.com',
+  defaultUrl: 'https://duckduckgo.com',
   theme: 'light'
 };
 
@@ -110,6 +110,9 @@ export function Options() {
             />
             <p className="text-xs text-muted-foreground">
               The URL that loads when you click the Home button or open the side panel.
+              <br />
+              <strong>Note:</strong> Some sites (like Google) may not load in iframes due to security restrictions. 
+              Try iframe-friendly alternatives like DuckDuckGo, Bing, or direct AI service URLs.
             </p>
           </div>
 

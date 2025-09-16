@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { AddressBar } from './AddressBar';
 import { ContentPane, ContentPaneRef } from './ContentPane';
 
-const DEFAULT_URL = 'https://www.google.com';
+const DEFAULT_URL = 'https://duckduckgo.com';
 
 export function SidePanel() {
   const [currentUrl, setCurrentUrl] = useState(DEFAULT_URL);
