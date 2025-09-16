@@ -80,7 +80,7 @@ export const ContentPane = forwardRef<ContentPaneRef, ContentPaneProps>(
           className="w-full h-full border-0"
           title="Side Browser Content"
           onLoad={handleLoad}
-          sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-navigation"
+          sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-top-navigation"
         />
       </div>
     );
